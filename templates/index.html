@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="/static/styles.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="/static/icon.png">
+        <script src="/static/script.js"></script>
+        <title>CustomPasses</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>CustomPasses</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>Create your custom pass card:</h2>
+                <form action="/" method="post">
+                    <input autofocus name="title" required type="text" placeholder="Title*">
+                    <input name="header" required type="text" placeholder="Header*">
+                    <input name="qr_code_content" required type="text" placeholder="QR Code Content*">
+
+                    <p>Show Code Content</p>
+                    <!-- Switch from https://www.loopnerd.com.br/codigos-css-prontos/botao-switch-html/ -->
+                    <input type="checkbox" id="switch" name="show_qr_code_content">
+                    <label for="switch"></label> <!-- Isn't really a label -->
+
+                    <p>Background Color</p>
+                    <input name="hex_background_color" required type="color" value="#5383EC">
+
+                    <p>Optionals</p>
+                    <input name="subheader" type="text" placeholder="Subheader">
+                    <input name="logo" type="text" placeholder="Logo url">
+                    <input name="image" type="text" placeholder="Image url">
+
+                    <p>Inside Content (Need to click the card)</p>
+                    <div class="inside">
+                        <input type="hidden" name="inside_values" value="" />
+                        <div>
+                            <input id="1" name="module_key" type="text" placeholder="Item title">
+                            <input id="2" name="module_value" type="text" placeholder="Item content">
+                            <button type="button" class="round"><span>+</span></button>
+                        </div>
+                    </div>
+
+                    <button name="submit" type="submit">
+                        <img alt="Google Wallet Icon" src="/static/icon.png">
+                        <span>Add to Google Wallet</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

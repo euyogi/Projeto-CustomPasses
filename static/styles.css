@@ -1,0 +1,116 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body, input {
+    text-align: center;
+}
+
+p, input {
+    margin: 5px 0;
+}
+
+input {
+    display: inline-block;
+    width: 300px;
+}
+
+input[type=color] {
+    height: 35px;
+    width: 35px;
+    border-radius: 0;
+    padding: 0 2px;
+}
+
+input, button {
+    height: 30px;
+    border-radius: 100px;
+    border-width: 0;
+    background: #f0f0f0;
+}
+
+button:hover {
+    background: mediumseagreen;
+    color: white;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 8px;
+}
+
+/* SWITCH */
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+label {
+  cursor: pointer;
+  width: 35px;
+  height: 20px;
+    margin: 5px 0;
+  background: #f0f0f0;
+  display: inline-block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+ content: "";
+ position: absolute;
+ top: 4px;
+ left: 4px;
+ width: 12px;
+ height: 12px;
+ background: #5e5959;
+ border-radius: 90px;
+ transition: 0.3s;
+}
+
+input:checked + label {
+  background: dodgerblue;
+}
+
+input:checked + label:after {
+  background: white;
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 15px;
+}
+/* ENDSWITCH */
+
+/* NO NEWLINE GAP */
+.inside > div {
+    font-size: 0;
+}
+
+.inside > div > input {
+    width: 150px;
+    margin-right: 5px;
+}
+
+img {
+    margin-right: 5px;
+    height: 19px;
+    width: 19px;
+}
+
+span, img {
+    vertical-align: middle;
+}
+
+.round {
+    border-radius: 100px;
+    height: 27px;
+    width: 27px;
+}
+
+.hidden {
+    visibility: hidden;
+}
