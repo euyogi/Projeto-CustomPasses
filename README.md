@@ -14,7 +14,7 @@ Mais informações em: https://developers.google.com/wallet?hl=pt-br.
 
 <h2>Para testar:</h2>
 
-Abrir <a href="custompasses.vercel.app">Projeto-CustomPasses</a>.
+Abrir <a href="https://custompasses.vercel.app">Projeto-CustomPasses</a>.
 
 Detalhe: Ao abrir o cartão o título conterá [SOMENTE TESTE] antes, confira os exemplos abaixo.
 
