@@ -30,6 +30,7 @@ a carteira da google perguntando se você quer adicionar o cartão.
 <h2>Exemplos de cartões:</h2>
 
 <p align="center">
+  <img alt="Imagem de um cartão" width=25% src="https://github.com/euyogi/Projeto-CustomPasses/assets/46427886/4518d202-2841-43b1-b4de-104a1dbef7cc">
   <img alt="Imagem de um cartão" width=30% src="https://github.com/euyogi/Projeto-CustomPasses/assets/46427886/5addd044-bc92-4157-ace7-2e8583dac001b">
   <img alt="Imagem de um cartão" width=25.5% src="https://github.com/euyogi/Projeto-CustomPasses/assets/46427886/58cf1010-0aad-42f0-ba00-ea760b78ced6">
 </p>
