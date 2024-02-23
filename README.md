@@ -27,10 +27,11 @@ Detalhe: Ao abrir o cartão o título conterá [SOMENTE PARA TESTES] antes.
 Como você pode ver basta inserir os dados que você quer no seu cartão e clicar em adicionar, você será redirecionado para
 a carteira da google perguntando se você quer adicionar o cartão.
 
-<h2>Exemplo de cartão:</h2>
+<h2>Exemplos de cartões:</h2>
 
 <p align="center">
   <img alt="Imagem de um cartão" width=30% src="https://github.com/euyogi/Projeto-CustomPasses/assets/46427886/5addd044-bc92-4157-ace7-2e8583dac001b">
+  <img alt="Imagem de um cartão" width=25.5% src="https://github.com/euyogi/Projeto-CustomPasses/assets/46427886/58cf1010-0aad-42f0-ba00-ea760b78ced6">
 </p>
 
 A logo é a imagem do google no canto superior esquerdo e a imagem é a imagem na parte inferior do cartão escrito #GoogleIO.
