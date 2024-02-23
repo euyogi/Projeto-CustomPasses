@@ -12,7 +12,8 @@ p, input {
 
 input {
     display: inline-block;
-    width: 300px;
+    max-width: 300px;
+    width: 90%;
 }
 
 input[type=color] {
@@ -91,7 +92,8 @@ label:active:after {
 }
 
 .inside > div > input {
-    width: 150px;
+    max-width: 150px;
+    width: 40%;
     margin-right: 5px;
 }
 
