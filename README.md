@@ -16,7 +16,7 @@ Mais informações em: https://developers.google.com/wallet?hl=pt-br.
 
 Abrir <a href="custompasses.vercel.app">Projeto-CustomPasses</a>.
 
-Detalhe: Ao abrir o cartão o título conterá [SOMENTE PARA TESTES] antes.
+Detalhe: Ao abrir o cartão o título conterá [SOMENTE TESTE] antes, confira os exemplos abaixo.
 
 <h2>Tela Inicial:</h2>
 
